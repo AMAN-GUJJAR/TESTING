@@ -10,7 +10,7 @@ async def asupan(client, message):
         results = f"{resp['url']}"
         return await client.send_video(message.chat.id, video=results)
     except Exception:
-        await message.reply_text("`Something went wrong LOL...`")
+        await message.reply_text("https://te.legra.ph/file/9ee01453fc404013fabf1.jpg")
 
 
 @Client.on_message(command(["wibu", f"wibu@{BOT_USERNAME}"]))
@@ -20,7 +20,7 @@ async def wibu(client, message):
         results = f"{resp['url']}"
         return await client.send_video(message.chat.id, video=results)
     except Exception:
-        await message.reply_text("`Something went wrong LOL...`")
+        await message.reply_text("https://te.legra.ph/file/375da592d4ddca0c816fa.mp4")
 
 
 @Client.on_message(command(["chika", f"chika@{BOT_USERNAME}"]))
@@ -30,7 +30,7 @@ async def chika(client, message):
         results = f"{resp['url']}"
         return await client.send_video(message.chat.id, video=results)
     except Exception:
-        await message.reply_text("`Something went wrong LOL...`")
+        await message.reply_text("https://te.legra.ph/file/aa370d5d0abf3e9d629bc.mp4")
 
 
 @Client.on_message(command(["truth", f"truth@{BOT_USERNAME}"]))
@@ -40,7 +40,7 @@ async def truth(client, message):
         results = f"{resp['message']}"
         return await message.reply_text(results)
     except Exception:
-        await message.reply_text("something went wrong...")
+        await message.reply_text("https://te.legra.ph/file/e5023a7fe6b5d116c6326.mp4")
 
 
 @Client.on_message(command(["dare", f"dare@{BOT_USERNAME}"]))
@@ -50,4 +50,4 @@ async def dare(client, message):
         results = f"{resp['message']}"
         return await message.reply_text(results)
     except Exception:
-        await message.reply_text("something went wrong...")
+        await message.reply_text("https://t.me/DARKAMANSUPPORT")
