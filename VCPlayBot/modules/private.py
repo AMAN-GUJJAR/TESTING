@@ -35,6 +35,7 @@ async def _human_time_duration(seconds):
 
 @Client.on_message(command(["start", f"start@{BOT_USERNAME}"]) & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
+    await message.reply_photo("https://te.legra.ph/file/9ee01453fc404013fabf1.jpg")
     await message.reply_text(
         f"""<b>✨ **𝚆𝙴𝙻𝙲𝙾𝙼𝙴 {message.from_user.first_name}** \n
 ⚡ **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) 𝙰𝙻𝙻𝙾𝚆 𝚈𝙾𝚄 𝚃𝙾 𝙿𝙻𝙰𝚈 𝙼𝚄𝚂𝙸𝙲 𝙾𝙽 𝙶𝚁𝙾𝚄𝙿𝚂 𝚃𝙷𝚁𝙾𝚄𝙶𝙷 𝚃𝙷𝙴 𝙽𝙴𝚆 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼'𝚂 𝚅𝙾𝙸𝙲𝙴 𝙲𝙷𝙰𝚃𝚂 !**
