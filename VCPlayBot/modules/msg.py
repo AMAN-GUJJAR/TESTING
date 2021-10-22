@@ -5,17 +5,17 @@ from VCPlayBot.config import PROJECT_NAME
 from VCPlayBot.config import SUPPORT_GROUP
 from VCPlayBot.config import UPDATES_CHANNEL
 class Messages():
-      START_MSG = "**Hello 👋 [{}](tg://user?id={})!**\n\n🤖 I am an advanced bot created for playing music in the voice chats of Telegram Groups & Channels.\n\n✅ Send me /help for more info.\n\n Join @Girls_And_Boys_Chatting"
+      START_MSG = "**𝙷𝙴𝙻𝙻𝙾 👋 [{}](tg://user?id={})!**\n\n🍁 𝙸 𝙰𝙼 𝙰𝙽 𝙰𝙳𝚅𝙰𝙽𝙲𝙴𝙳 𝙱𝙾𝚃 𝙲𝚁𝙴𝙰𝚃𝙴𝙳 𝙵𝙾𝚁 𝙿𝙻𝙰𝚈𝙸𝙽𝙶 𝙼𝚄𝚂𝙸𝙲 𝙸𝙽 𝚃𝙷𝙴 𝚅𝙾𝙸𝙲𝙴 𝙲𝙷𝙰𝚃𝚂 𝙾𝙵 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼 𝙶𝚁𝙾𝚄𝙿𝚂 & 𝙲𝙷𝙰𝙽𝙽𝙴𝙻𝚂.\n\n✅ 𝚂𝙴𝙽𝙳 𝙼𝙴 /help 𝙵𝙾𝙴 𝙼𝙾𝚁𝙴 𝙸𝙽𝙵𝙾.\n\n 𝙹𝙾𝙸𝙽 @DARKAMANCHANNEL"
       HELP_MSG = [
         ".",
 f"""
-**Hey 👋 Welcome back to {PROJECT_NAME}
+**𝙷𝙴𝚈 👋 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝙱𝙰𝙲𝙺 𝚃𝙾 {PROJECT_NAME}
 
 ⚪️ {PROJECT_NAME} can play music in your group's voice chat as well as channel voice chats
 
 ⚪️ Assistant name >> @{ASSISTANT_NAME}\n\nClick next for instructions**
 
-Join @Girls_And_Boys_Chatting
+Join @DARKAMANSUPPORT
 """,
 
 f"""
@@ -31,7 +31,7 @@ f"""
 2) Send /userbotjoinchannel in linked group
 3) Now send commands in linked group
 
-Join @Girls_And_Boys_Chatting
+Join @DARKAMANCHANNEL
 """,
 f"""
 **Commands**
@@ -55,7 +55,7 @@ f"""
 - /playlist: Shows playlist
 
 *Player cmd and all other cmds except /play, /current  and /playlist  are only for admins of the group.
-Join @Girls_And_Boys_Chatting
+Join @DARKAMANCHANNEL
 """,
 
 f"""
@@ -83,7 +83,7 @@ channel is also can be used instead of c ( /cplay = /channelplay )
 3) Add bot as Channel admin with full perms
 4) Add @{ASSISTANT_NAME} to the channel as an admin.
 5) Simply send commands in your group. (remember to use /ytplay instead /play)
-Join @Girls_And_Boys_Chatting
+Join @DARKAMANSUPPORT
 """,
 
 f"""
@@ -92,7 +92,7 @@ f"""
 - /musicplayer [on/off]: Enable/Disable Music player
 - /admincache: Updates admin info of your group. Try if bot isn't recognize admin
 - /userbotjoin: Invite @{ASSISTANT_NAME} Userbot to your chat
-Join @Girls_And_Boys_Chatting
+Join @DARKAMANSUPPORT
 """,
 f"""
 **=>> Song Download 🎸**
@@ -106,7 +106,7 @@ f"""
 
 - /search [song name]: Search youtube for songs
 - /lyrics [song name]: Get song lyrics
-Join @Girls_And_Boys_Chatting
+Join @DARKAMANSUPPORT
 """,
 
 f"""
@@ -116,6 +116,6 @@ f"""
  - /broadcast <reply to message> - globally brodcast replied message to all chats
  - /pmpermit [on/off] - enable/disable pmpermit message
 *Sudo Users can execute any command in any groups
-Join @Girls_And_Boys_Chatting
+Join @DARKAMANSUPPORT
 """
       ]
