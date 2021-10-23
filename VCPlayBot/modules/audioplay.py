@@ -1,22 +1,22 @@
-# this module i created only for playing music using audio file, idk, because the audio player on play.py module not working
-# so this is the alternative
-# audio play function
+#DARKAMAN 
+#ALEXA_MUSIC
+#COPY_RIGHT = DARKAMAN
 
 from os import path
 
 from pyrogram import Client
 from pyrogram.types import Message, Voice
 
-from DeCodeMusic.callsmusic import callsmusic, queues
+from VCPlayBot.callsmusic import callsmusic, queues
 
-import DeCodeMusic.converter
-from DeCodeMusic.downloaders import youtube
+import VCPlayBot.converter
+from VCPlayBot.downloaders import youtube
 
-from DeCodeMusic.config import BOT_NAME, DURATION_LIMIT, UPDATES_CHANNEL, BG_IMAGE, SUPPORT_GROUP,
-from DeCodeMusic.helpers.filters import command, other_filters
-from DeCodeMusic.helpers.decorators import errors
-from DeCodeMusic.helpers.errors import DurationLimitError
-from DeCodeMusic.helpers.gets import get_url, get_file_name
+from VCPlayBot.config import BOT_NAME, DURATION_LIMIT, UPDATES_CHANNEL, BG_IMAGE, SUPPORT_GROUP,
+from VCPlayBot.helpers.filters import command, other_filters
+from VCPlayBot.helpers.decorators import errors
+from VCPlayBot.helpers.errors import DurationLimitError
+from VCPlayBot.helpers.gets import get_url, get_file_name
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 @Client.on_message(command("audio") & other_filters)
