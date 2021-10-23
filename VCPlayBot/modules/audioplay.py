@@ -5,14 +5,22 @@
 from os import path
 
 from pyrogram import Client
-from pyrogram.types import Message, Voice
+from pyrogram.types import 
+InlineKeyboardButton, InlineKeyboardMarkup,
 
 from VCPlayBot.callsmusic import callsmusic, queues
 
 import VCPlayBot.converter
 from VCPlayBot.downloaders import youtube
 
-from VCPlayBot.config import BOT_NAME, DURATION_LIMIT, UPDATES_CHANNEL, BG_IMAGE, SUPPORT_GROUP,
+from VCPlayBot.config import(
+     BOT_NAME,
+     DURATION_LIMIT, 
+     UPDATES_CHANNEL,  
+     BG_IMAGE, 
+     SUPPORT_GROUP,
+)
+
 from VCPlayBot.helpers.filters import command, other_filters
 from VCPlayBot.helpers.decorators import errors
 from VCPlayBot.helpers.errors import DurationLimitError
