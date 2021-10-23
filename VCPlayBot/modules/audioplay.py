@@ -12,7 +12,7 @@ from DeCodeMusic.callsmusic import callsmusic, queues
 import DeCodeMusic.converter
 from DeCodeMusic.downloaders import youtube
 
-from DeCodeMusic.config import BOT_NAME as bn, DURATION_LIMIT, UPDATES_CHANNEL, AUD_IMG, QUE_IMG, GROUP_SUPPORT
+from DeCodeMusic.config import BOT_NAME as bn, DURATION_LIMIT, UPDATES_CHANNEL, BG_IMAGE, SUPPORT_GROUP,
 from DeCodeMusic.helpers.filters import command, other_filters
 from DeCodeMusic.helpers.decorators import errors
 from DeCodeMusic.helpers.errors import DurationLimitError
@@ -31,10 +31,10 @@ async def stream(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="✨ ɢʀᴏᴜᴘ",
-                        url=f"https://t.me/{GROUP_SUPPORT}"),
+                        text="🖱️𝚂𝚄𝙿𝙿𝙾𝚁𝚃🖱️",
+                        url=f"https://t.me/{SUPPORT_GROUP}"),
                     InlineKeyboardButton(
-                        text="🌻 ᴄʜᴀɴɴᴇʟ",
+                        text="🍁𝙲𝙷𝙰𝙽𝙽𝙴𝙻🍁",
                         url=f"https://t.me/{UPDATES_CHANNEL}")
                 ]
             ]
@@ -63,15 +63,15 @@ async def stream(_, message: Message):
         position = await queues.put(message.chat.id, file=file_path)
         costumer = message.from_user.mention
         await message.reply_photo(
-        photo=f"{QUE_IMG}",
+        photo=f"{BG_IMAGE}",
         reply_markup=keyboard,
-        caption=f"💡 Track added to the **queue**\n\n🔢 position: » `{position}` «\n🎧 request by: {costumer}\n\n⚡ __Powered by {bn} A.I__")
+        caption=f"⚡ Track added to the **queue**\n\n🔢 position: » `{position}` «\n🎧 request by: {costumer}\n\n⚡ __Powered by {bn} A.I__")
         return await lel.delete()
     else:
         callsmusic.pytgcalls.join_group_call(message.chat.id, file_path)
         costumer = message.from_user.mention
         await message.reply_photo(
-        photo=f"{AUD_IMG}",
+        photo=f"{BG_IMAGE}",
         reply_markup=keyboard,
         caption=f"💡 **Status**: `Playing`\n🎧 Request by: {costumer}\n\n⚡ __Powered by {bn} A.I__"
         )
