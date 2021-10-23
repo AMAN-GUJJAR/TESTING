@@ -12,7 +12,7 @@ from DeCodeMusic.callsmusic import callsmusic, queues
 import DeCodeMusic.converter
 from DeCodeMusic.downloaders import youtube
 
-from DeCodeMusic.config import BOT_NAME as bn, DURATION_LIMIT, UPDATES_CHANNEL, BG_IMAGE, SUPPORT_GROUP,
+from DeCodeMusic.config import BOT_NAME, DURATION_LIMIT, UPDATES_CHANNEL, BG_IMAGE, SUPPORT_GROUP,
 from DeCodeMusic.helpers.filters import command, other_filters
 from DeCodeMusic.helpers.decorators import errors
 from DeCodeMusic.helpers.errors import DurationLimitError
@@ -23,7 +23,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 @errors
 async def stream(_, message: Message):
 
-    lel = await message.reply("🔁 **processing** sound...")
+    lel = await message.reply("🔁 **processing**")
     sender_id = message.from_user.id
     sender_name = message.from_user.first_name
 
