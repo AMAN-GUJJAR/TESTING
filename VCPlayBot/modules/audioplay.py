@@ -5,9 +5,6 @@
 from os import path
 
 from pyrogram import Client
-from pyrogram.types import 
-InlineKeyboardButton, InlineKeyboardMarkup,
-
 from VCPlayBot.callsmusic import callsmusic, queues
 
 import VCPlayBot.converter
