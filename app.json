@@ -51,6 +51,11 @@
       "description": "BG image of bot (Use transparent one) [IGNORE].",
       "required": false,
       "value": "https://telegra.ph/file/9b13ea3ce046a1a5c8098.png"
+    },    
+    "THUMB_IMG": {
+      "description": "THUMB image of bot (Use transparent one) [IGNORE].",
+      "required": false,
+      "value": "https://telegra.ph/file/9b13ea3ce046a1a5c8098.png"
     },     
     "UPDATES_CHANNEL": {
       "description": "Updates Channel without @ [Leave this if you don't have one].",
