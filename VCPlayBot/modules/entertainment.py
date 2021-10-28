@@ -20,7 +20,7 @@ async def wibu(client, message):
         results = f"{resp['url']}"
         return await client.send_video(message.chat.id, video=results)
     except Exception:
-        await message.reply_text("https://te.legra.ph/file/375da592d4ddca0c816fa.mp4")
+        await message.reply_text("`https://te.legra.ph/file/e5023a7fe6b5d116c6326.mp4`")
 
 
 @Client.on_message(command(["chika", f"chika@{BOT_USERNAME}"]))
