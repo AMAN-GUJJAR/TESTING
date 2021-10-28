@@ -481,7 +481,7 @@ async def play(_, message: Message):
                     # print(e)
                     await lel.edit(
                         f"<b>⛑ Flood Wait Error ⛑\n{user.first_name} DarkMusic helper is not in Ur chat plz add Manually."
-                        f"\n\nZaid Assistant @{ASSISTANT_NAME} try to add manually</b>",
+                        f"\n\nDARK Assistant @{ASSISTANT_NAME} try to add manually</b>",
                     )
     try:
         await USER.get_chat(chid)
