@@ -20,7 +20,6 @@ from pyrogram.errors import UserAlreadyParticipant
 from pyrogram.types import InlineKeyboardButton
 from pyrogram.types import InlineKeyboardMarkup
 from pyrogram.types import Message
-from Python_ARQ import ARQ
 from youtube_search import YoutubeSearch
 
 from VCPlayBot.config import ARQ_API_KEY
