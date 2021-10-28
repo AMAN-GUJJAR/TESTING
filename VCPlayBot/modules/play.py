@@ -27,6 +27,10 @@ from VCPlayBot.config import ARQ_API_KEY
 from VCPlayBot.config import BOT_NAME as bn
 from VCPlayBot.config import DURATION_LIMIT
 from VCPlayBot.config import UPDATES_CHANNEL as updateschannel
+from VCPlayBot.config import SUPPORT_GROUP
+from VCPlayBot.config import BOT_USERNAME
+from VCPlayBot.config import ASSISTANT_NAME
+from VCPlayBot.config import THUMB_IMG
 from VCPlayBot.config import que
 from VCPlayBot.function.admins import admins as a
 from VCPlayBot.helpers.admins import get_administrators
