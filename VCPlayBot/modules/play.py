@@ -22,7 +22,6 @@ from pyrogram.types import InlineKeyboardMarkup
 from pyrogram.types import Message
 from youtube_search import YoutubeSearch
 
-from VCPlayBot.config import ARQ_API_KEY
 from VCPlayBot.config import BOT_NAME as bn
 from VCPlayBot.config import DURATION_LIMIT
 from VCPlayBot.config import UPDATES_CHANNEL as updateschannel
